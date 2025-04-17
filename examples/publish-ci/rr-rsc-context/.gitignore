@@ -14,7 +14,7 @@
 
 # production
 /build
-
+  "onCreateCommand": ["/bin/bash", "-c", "npm run setup"],
 # misc
 .DS_Store
 *.pem
